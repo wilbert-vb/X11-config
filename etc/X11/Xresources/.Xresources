@@ -1,0 +1,3 @@
+#include "/etc/X11/Xresources/fontconfig.Xresources"
+#include "/etc/X11/Xresources/urxvt.Xresources"
+#include "/etc/X11/Xresources/xterm.Xresources"
