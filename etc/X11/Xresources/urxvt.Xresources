@@ -1,27 +1,27 @@
-URxvt*background:		    #000000
-! URxvt*backgroundPixmap:
-URxvt*color0:			    #000000
-URxvt*color10:			    #54ff54
-URxvt*color11:			    #ffff54
-URxvt*color12:			    #5454ff
-URxvt*color13:			    #ff54ff
-URxvt*color14:			    #54ffff
-URxvt*color15:			    #ffffff
-URxvt*color1:			    #b21818
-URxvt*color2:			    #18b218
-URxvt*color3:			    #b26818
-URxvt*color4:			    #1818b2
-URxvt*color5:			    #b218b2
-URxvt*color6:			    #18b2b2
-URxvt*color7:			    #b2b2b2
-URxvt*color8:			    #686868
-URxvt*color9:			    #ff5454
-URxvt*font:			        xft:DejaVu Sans Mono:size=11
-URxvt*foreground:		    #b2b2b2
-URxvt*geometry:			    132x45
-URxvt.letterSpace:          -1
-URxvt*loginShell:           true
-URxvt*saveLines:            2000
-URxvt*scrollBar:            false
-URxvt*skipBuiltinGlyphs:    1
-! URxvt*url-launcher:
+URxvt*background	: #333333
+URxvt*backgroundPixmap	: /srv/users/wvanbakel/Pictures/.porn/Coach\ Nick/IMG_7244_v2.jpg
+URxvt*color0		: #000000
+URxvt*color10		: #54ff54
+URxvt*color11		: #ffff54
+URxvt*color12		: #5454ff
+URxvt*color13		: #ff54ff
+URxvt*color14		: #54ffff
+URxvt*color15		: #ffffff
+URxvt*color1		: #b21818
+URxvt*color2		: #18b218
+URxvt*color3		: #b26818
+URxvt*color4		: #1818b2
+URxvt*color5		: #b218b2
+URxvt*color6		: #18b2b2
+URxvt*color7		: #b2b2b2
+URxvt*color8		: #686868
+URxvt*color9		: #ff5454
+URxvt*font		: xft:DejaVu Sans Mono:size=11
+URxvt*foreground	: #b2b2b2
+URxvt*geometry		: 132x45
+URxvt.letterSpace	: -1
+URxvt*loginShell	: true
+URxvt*saveLines		: 2000
+URxvt*scrollBar		: false
+URxvt*skipBuiltinGlyphs	: 1
+URxvt*url-launcher	: firefox
