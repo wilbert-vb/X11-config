@@ -1,0 +1,72 @@
+<JWM>
+<!-- Visual Styles -->
+<!-- Gold Dragon -->
+
+<WindowStyle>
+	<Font antialias="false">smoothansi</Font>
+	<Width>2</Width>
+	<Height>16</Height>
+	<Active>
+		<Foreground>white</Foreground>
+		<Background>white:grey13</Background>
+	<Outline>dark goldenrod</Outline>
+	</Active>
+		<Foreground>white</Foreground>
+		<Background>grey20:grey0</Background>
+	<Outline>gold</Outline>
+</WindowStyle>
+
+<TaskListStyle>
+	<Font antialias="false">smoothansi</Font>
+	<Active>
+	<Foreground>white</Foreground>
+	<Background>red:grey13</Background>
+	</Active>
+	<Foreground>gold</Foreground>
+	<Background>grey20:grey0</Background>
+</TaskListStyle>
+
+<!-- Additional TrayStyle attribute: insert -->
+
+<TrayStyle>
+	<Font antialias="false">smoothansi</Font>
+	<Background>dark goldenrod</Background>
+	<Foreground>chocolate</Foreground>
+</TrayStyle>
+
+<ClockStyle>
+	<Font>Terminus Bold-16</Font>
+	<Foreground>chocolate</Foreground>
+	<Background>gold</Background>
+</ClockStyle>
+
+<PagerStyle>
+	<Outline>yellow</Outline>
+	<Foreground>black</Foreground>
+	<Background>gold</Background>
+	<Active>
+	<Foreground>black</Foreground>
+	<Background>grey44</Background>
+	</Active>
+</PagerStyle>
+
+<MenuStyle>
+	<Font antialias="false">smoothansi</Font>
+	<Foreground>black</Foreground>
+	<Background>dark goldenrod</Background>
+        <Outline>#000000</Outline>
+       <Active>
+	<Foreground>chocolate:red</Foreground>
+	<Background>gold</Background>
+	</Active>
+        <Opacity>0.85</Opacity>
+</MenuStyle>
+
+<PopupStyle>
+	<Font antialias="false">smoothansi</Font>
+	<Outline>gold</Outline>
+	<Foreground>black</Foreground>
+	<Background>dark goldenrod</Background>
+</PopupStyle>
+
+</JWM>

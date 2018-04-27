@@ -1,0 +1,70 @@
+<JWM>
+<!-- Visual Styles -->
+<!-- evil blue glow -->
+
+<WindowStyle>
+	<Font>Terminus Bold-14</Font>
+	<Width>4</Width>
+	<Height>20</Height>
+	<Active>
+		<Foreground>snow</Foreground>
+		<Background>blue:light blue</Background>
+	<Outline>snow</Outline>
+	</Active>
+		<Foreground>black</Foreground>
+		<Background>dark blue:light blue</Background>
+	<Outline>light blue</Outline>
+</WindowStyle>
+
+<TaskListStyle>
+	<Font>DejaVu Sans 12</Font>
+	<Active>
+	<Foreground>black</Foreground>
+	<Background>darkblue:snow</Background>
+	</Active>
+	<Foreground>snow</Foreground>
+	<Background>light blue:blue</Background>
+</TaskListStyle>
+
+<TrayStyle>
+	<Font>DejaVu Sans 11</Font>
+	<Background>blue</Background>
+	<Foreground>dark blue</Foreground>
+</TrayStyle>
+
+<ClockStyle>
+	<Font>Terminus Bold-16</Font>
+	<Foreground>dark blue</Foreground>
+	<Background>blue</Background>
+</ClockStyle>
+
+<PagerStyle>
+	<Outline>grey66</Outline>
+	<Foreground>grey44</Foreground>
+	<Background>snow</Background>
+	<Active>
+	<Foreground>darkblue</Foreground>
+	<Background>light blue</Background>
+	</Active>
+</PagerStyle>
+
+<MenuStyle>
+	<Font>DejaVu Sans 11</Font>
+	<Foreground>snow</Foreground>
+	<Background>grey0</Background>
+        <Outline>#000000</Outline>
+       <Active>
+	<Foreground>black</Foreground>
+	<Background>blue:white</Background>
+	</Active>
+        <Opacity>0.85</Opacity></MenuStyle>
+</MenuStyle>
+
+<PopupStyle enabled="true">
+	<Font>DejaVu Sans 10</Font>
+	<Outline>light blue</Outline>
+	<Foreground>snow</Foreground>
+	<Background>blue</Background>
+</PopupStyle>
+
+</JWM>
