@@ -1,0 +1,36 @@
+<JWM>
+
+  <Group>
+    <Option>tiled</Option>
+    <Option>aerosnap</Option>
+  </Group>
+
+  <Group>
+    <Class>Pidgin</Class>
+    <Option>sticky</Option>
+  </Group>
+
+  <Group>
+    <Name>xterm</Name>
+    <Option>vmax</Option>
+  </Group>
+
+  <Group>
+    <Name>urxvt</Name>
+    <Option>x:40</Option>
+    <Option>y:100</Option>
+  </Group>
+
+  <Group>
+    <Name>xterm</Name>
+    <Option>x:40</Option>
+    <Option>y:100</Option>
+  </Group>
+
+  <Group>
+    <Name>xclock</Name>
+    <Option>drag</Option>
+    <Option>notitle</Option>
+  </Group>
+
+</JWM>

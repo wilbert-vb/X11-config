@@ -1,0 +1,21 @@
+<JWM>
+<Menu label="Themes">
+<Program label="black" confirm="false">cp -a $HOME/.config/jwm.d/themes/black $HOME/.config/jwm.d/theme</Program>
+<Program label="blue_dragon" confirm="false">cp -a $HOME/.config/jwm.d/themes/blue_dragon $HOME/.config/jwm.d/theme</Program>
+<Program label="brown" confirm="false">cp -a $HOME/.config/jwm.d/themes/brown $HOME/.config/jwm.d/theme</Program>
+<Program label="clearlooks" confirm="false">cp -a $HOME/.config/jwm.d/themes/clearlooks $HOME/.config/jwm.d/theme</Program>
+<Program label="coffee_cream" confirm="false">cp -a $HOME/.config/jwm.d/themes/coffee_cream $HOME/.config/jwm.d/theme</Program>
+<Program label="coper" confirm="false">cp -a $HOME/.config/jwm.d/themes/coper $HOME/.config/jwm.d/theme</Program>
+<Program label="default" confirm="false">cp -a $HOME/.config/jwm.d/themes/default $HOME/.config/jwm.d/theme</Program>
+<Program label="gold" confirm="false">cp -a $HOME/.config/jwm.d/themes/gold $HOME/.config/jwm.d/theme</Program>
+<Program label="gold_dragon" confirm="false">cp -a $HOME/.config/jwm.d/themes/gold_dragon $HOME/.config/jwm.d/theme</Program>
+<Program label="green" confirm="false">cp -a $HOME/.config/jwm.d/themes/green $HOME/.config/jwm.d/theme</Program>
+<Program label="ice" confirm="false">cp -a $HOME/.config/jwm.d/themes/ice $HOME/.config/jwm.d/theme</Program>
+<Program label="military" confirm="false">cp -a $HOME/.config/jwm.d/themes/military $HOME/.config/jwm.d/theme</Program>
+<Program label="pastel" confirm="false">cp -a $HOME/.config/jwm.d/themes/pastel $HOME/.config/jwm.d/theme</Program>
+<Program label="red" confirm="false">cp -a $HOME/.config/jwm.d/themes/red $HOME/.config/jwm.d/theme</Program>
+<Program label="shades_of_grey" confirm="false">cp -a $HOME/.config/jwm.d/themes/shades_of_grey $HOME/.config/jwm.d/theme</Program>
+<Program label="white" confirm="false">cp -a $HOME/.config/jwm.d/themes/white $HOME/.config/jwm.d/theme</Program>
+<Program label="Restart" confirm="false">jwm -restart</Program>
+</Menu>
+</JWM>
