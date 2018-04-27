@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<JWM>
+
+<RootMenu height="20">
+
+   <Include>$HOME/.config/jwm.d/menu</Include>
+
+   <Separator/>
+
+   <Menu label="Logout..." icon="/usr/share/icons/Faenza-Cupertino-mini/actions/32/application-exit.png">
+     <Restart label="Restart JWM" icon="/usr/share/icons/Faenza-Cupertino-mini/actions/32/view-refresh.png"/>
+     <Exit label="Log Out" icon="/usr/share/icons/Faenza-Cupertino-mini/actions/32/application-exit.png" confirm="false"/>
+   </Menu>
+
+</RootMenu>
+
+   <Include>$HOME/.config/jwm.d/options</Include>
+   <Include>$HOME/.config/jwm.d/theme</Include>
+
+    <!-- Tray at the bottom. -->
+    <Tray x="0" y="-1" height="25" autohide="off">
+
+        <TrayButton icon="/usr/share/jwm/jwm-red.svg">root:1</TrayButton>
+        <Spacer width="2"/>
+        <TrayButton label="_">showdesktop</TrayButton>
+        <Spacer width="2"/>
+
+        <Pager labeled="true"/>
+
+        <TaskList maxwidth="256"/>
+
+        <Dock/>
+        <Clock format="%H:%M"><Button mask="123">exec:xclock</Button></Clock>
+
+    </Tray>
+
+    <!-- Path where icons can be found.
+         IconPath can be listed multiple times to allow searching
+         for icons in multiple paths.
+      -->
+    <IconPath>/usr/share/icons/gnome/256x256/actions</IconPath>
+    <IconPath>/usr/share/icons/gnome/256x256/apps</IconPath>
+    <IconPath>/usr/share/icons/gnome/256x256/categories</IconPath>
+    <IconPath>/usr/share/icons/gnome/256x256/devices</IconPath>
+    <IconPath>/usr/share/icons/gnome/256x256/emblems</IconPath>
+    <IconPath>/usr/share/icons/gnome/256x256/mimetypes</IconPath>
+    <IconPath>/usr/share/icons/gnome/256x256/places</IconPath>
+    <IconPath>/usr/share/icons/gnome/256x256/status</IconPath>
+    <IconPath>/usr/share/icons/gnome/32x32/actions</IconPath>
+    <IconPath>/usr/share/icons/gnome/32x32/animations</IconPath>
+    <IconPath>/usr/share/icons/gnome/32x32/apps</IconPath>
+    <IconPath>/usr/share/icons/gnome/32x32/categories</IconPath>
+    <IconPath>/usr/share/icons/gnome/32x32/devices</IconPath>
+    <IconPath>/usr/share/icons/gnome/32x32/emblems</IconPath>
+    <IconPath>/usr/share/icons/gnome/32x32/mimetypes</IconPath>
+    <IconPath>/usr/share/icons/gnome/32x32/places</IconPath>
+    <IconPath>/usr/share/icons/gnome/32x32/status</IconPath>
+    <IconPath>/usr/share/icons/gnome/scalable/actions</IconPath>
+    <IconPath>/usr/share/icons/gnome/scalable/apps</IconPath>
+    <IconPath>/usr/share/icons/gnome/scalable/categories</IconPath>
+    <IconPath>/usr/share/icons/gnome/scalable/devices</IconPath>
+    <IconPath>/usr/share/icons/gnome/scalable/emblems</IconPath>
+    <IconPath>/usr/share/icons/gnome/scalable/mimetypes</IconPath>
+    <IconPath>/usr/share/icons/gnome/scalable/places</IconPath>
+    <IconPath>/usr/share/icons/gnome/scalable/status</IconPath>
+    <IconPath>/usr/share/icons/hicolor/256x256/apps</IconPath>
+    <IconPath>/usr/share/icons/hicolor/256x256/mimetypes</IconPath>
+    <IconPath>/usr/share/icons/hicolor/32x32/actions</IconPath>
+    <IconPath>/usr/share/icons/hicolor/32x32/apps</IconPath>
+    <IconPath>/usr/share/icons/hicolor/32x32/categories</IconPath>
+    <IconPath>/usr/share/icons/hicolor/32x32/devices</IconPath>
+    <IconPath>/usr/share/icons/hicolor/32x32/emblems</IconPath>
+    <IconPath>/usr/share/icons/hicolor/32x32/mimetypes</IconPath>
+    <IconPath>/usr/share/icons/hicolor/32x32/status</IconPath>
+    <IconPath>/usr/share/icons/hicolor/512x512/apps</IconPath>
+    <IconPath>/usr/share/icons/hicolor/512x512/mimetypes</IconPath>
+    <IconPath>/usr/share/icons/hicolor/scalable/actions</IconPath>
+    <IconPath>/usr/share/icons/hicolor/scalable/apps</IconPath>
+    <IconPath>/usr/share/icons/hicolor/scalable/categories</IconPath>
+    <IconPath>/usr/share/icons/hicolor/scalable/devices</IconPath>
+    <IconPath>/usr/share/icons/hicolor/scalable/emblems</IconPath>
+    <IconPath>/usr/share/icons/hicolor/scalable/mimetypes</IconPath>
+    <IconPath>/usr/share/icons/hicolor/scalable/places</IconPath>
+    <IconPath>/usr/share/icons/hicolor/scalable/status</IconPath>
+    <IconPath>/usr/share/icons</IconPath>
+    <IconPath>/usr/share/pixmaps</IconPath>
+    <IconPath>/usr/local/share/jwm</IconPath>
+
+    <!-- Virtual Desktops -->
+    <!-- Desktop tags can be contained within Desktops for desktop names. -->
+    <Desktops width="4" height="1">
+        <!-- Default background. Note that a Background tag can be
+              contained within a Desktop tag to give a specific background
+              for that desktop.
+         -->
+        <Desktop name="1">
+          <Background type="image">/srv/users/wvanbakel/Downloads/desktop_wallpapers/Digital Blasphemy/canopycreekautumn21280.jpg</Background>
+        </Desktop>
+        <Desktop name="2">
+          <Background type="solid">blue</Background>
+        </Desktop>
+        <Desktop name="3">
+          <Background type="gradient">blue:yellow</Background>
+        </Desktop>
+        <Desktop name="4">
+          <Background type="tile">/srv/users/wvanbakel/Downloads/desktop_wallpapers/Next/contents/images/1280x1024.png</Background>
+        </Desktop>
+    </Desktops>
+
+    <!-- Double click speed (in milliseconds) -->
+    <DoubleClickSpeed>400</DoubleClickSpeed>
+
+    <!-- Double click delta (in pixels) -->
+    <DoubleClickDelta>2</DoubleClickDelta>
+
+    <!-- The focus model (sloppy or click) -->
+    <FocusModel>click</FocusModel>
+
+    <!-- The snap mode (none, screen, or border) -->
+    <SnapMode distance="10">border</SnapMode>
+
+    <!-- The move mode (outline or opaque) -->
+    <MoveMode>opaque</MoveMode>
+
+    <!-- The resize mode (outline or opaque) -->
+    <ResizeMode>opaque</ResizeMode>
+
+    <!-- Key bindings -->
+    <Key key="Up">up</Key>
+    <Key key="Down">down</Key>
+    <Key key="Right">right</Key>
+    <Key key="Left">left</Key>
+    <Key key="h">left</Key>
+    <Key key="j">down</Key>
+    <Key key="k">up</Key>
+    <Key key="l">right</Key>
+    <Key key="Return">select</Key>
+    <Key key="Escape">escape</Key>
+
+    <Key mask="A" key="Tab">nextstacked</Key>
+    <Key mask="A" key="F4">close</Key>
+    <Key mask="A" key="#">desktop#</Key>
+    <Key mask="A" key="F1">root:1</Key>
+    <Key mask="A" key="F2">window</Key>
+    <Key mask="A" key="F10">maximize</Key>
+    <Key mask="A" key="Right">rdesktop</Key>
+    <Key mask="A" key="Left">ldesktop</Key>
+    <Key mask="A" key="Up">udesktop</Key>
+    <Key mask="A" key="Down">ddesktop</Key>
+
+</JWM>
