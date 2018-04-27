@@ -1,0 +1,29 @@
+<JWM>
+
+  <Include>/etc/jwm/debian-menu</Include>
+
+  <Separator/>
+
+  <Program icon="firefox-esr" label="Firefox">firefox</Program>
+  <Program icon="urxvt" label="Rxvt Color Unicode Terminal">urxvt</Program>
+  <Program icon="vim-32" label="Visual Editor">vi</Program>
+  <Program icon="xterm-color" label="Terminal">xterm</Program>
+
+  <Separator/>
+
+  <Menu label="XFE..." icon="xfe">
+    <Program icon="xfe" label="File Explorer">xfe</Program>
+    <Program icon="xfi" label="Image Viewer">xfimage</Program>
+    <Program icon="xfp" label="Package Manager">xfp</Program>
+    <Program icon="xfw" label="Text Editor">xfwrite</Program>
+  </Menu>
+
+  <Separator/>
+
+  <Include>$HOME/.config/jwm.d/themes-list</Include>
+
+  <Separator/>
+
+  <Program icon="lock.png" label="Lock">xlock -mode blank</Program>
+
+</JWM>
