@@ -1,5 +1,4 @@
-URxvt*background	: #333333
-URxvt*backgroundPixmap	: /srv/users/wvanbakel/Pictures/.porn/Coach\ Nick/IMG_7244_v2.jpg
+urxvt*background	: rgba:0000/0000/0200/c800
 URxvt*color0		: #000000
 URxvt*color10		: #54ff54
 URxvt*color11		: #ffff54
@@ -16,12 +15,9 @@ URxvt*color6		: #18b2b2
 URxvt*color7		: #b2b2b2
 URxvt*color8		: #686868
 URxvt*color9		: #ff5454
-URxvt*font		: xft:DejaVu Sans Mono:size=11
+urxvt*depth		: 32
+URxvt*font		: xft:Noto Mono:size=11
 URxvt*foreground	: #b2b2b2
 URxvt*geometry		: 132x45
 URxvt.letterSpace	: -1
-URxvt*loginShell	: true
-URxvt*saveLines		: 2000
 URxvt*scrollBar		: false
-URxvt*skipBuiltinGlyphs	: 1
-URxvt*url-launcher	: firefox
